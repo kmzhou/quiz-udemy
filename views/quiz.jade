@@ -1,0 +1,44 @@
+extends layout
+
+block content
+    script.
+        const selected = '!{selected}'
+        console.log(selected);
+    script(src="/javascripts/quiz.js") 
+
+    a(href='/')
+        i.material-icons#home home 
+
+    div#quiz.page
+        div#q_number 0
+        
+        div#question_text
+
+        div.choices
+            button#choice_0.choice
+
+            button#choice_1.choice
+
+            button#choice_2.choice
+
+            button#choice_3.choice
+
+        button#next NEXT
+
+    div#results.page
+        div#quiz_name
+        div#final_score 50
+        div#questions
+
+        div#expand
+            button#back Back
+            div#res_question_text
+
+            div.res_choices
+                div#res_choice_0.res_choice
+
+                div#res_choice_1.res_choice
+
+                div#res_choice_2.res_choice
+
+                div#res_choice_3.res_choice
