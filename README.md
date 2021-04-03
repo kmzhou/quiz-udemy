@@ -31,7 +31,20 @@ Each question in the quiz is displayed individually, with the answer choices lis
 
 The results page shows the user's score, and lists the questions from the quiz. The questions that the user answered correctly are highlighted in green, and those that were answered incorrectly are highlighted in red. The user can click on any question expand the question, displaying all the answer choices. The user's answer will always be highlighted in red or green depending on the correctness of the choice, and the correct answer will be highlighted in green. 
 
+# Walkthrough
+![1.png](/screenshots/1.png)
+![2.png](/screenshots/2.png)
+![3.png](/screenshots/3.png)
+![4.png](/screenshots/4.png)
+![5.png](/screenshots/5.png)
+![6.png](/screenshots/6.png)
+![7.png](/screenshots/7.png)
 
+# Next Steps
+1. User authentication and management system
+2. Admin interface for quiz creation
+3. Allow users to change their answer choice
+4. Allow for multiple question types
 
 # Installation
 1. Install Node.js and npm:
